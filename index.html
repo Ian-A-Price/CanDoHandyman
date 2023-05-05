@@ -1,38 +1,74 @@
-<!DocType html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/styles.css">
-  <title>Can Do Handyman</title>
+  <title>Family Handyman Company | Home Repair Services</title>
+  <link rel="stylesheet" href="./assets/CSS/styles.css">
 </head>
-
 <body>
-  <!--navigation-->
   <header>
-    <h1>
-      <a href="/">Can Do Handyman</a>
-    </h1>
     <nav>
-      <!-- Links to navbar-->
       <ul>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#what-we-do">What We Do</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav>
   </header>
-
-
+  <main>
+    <section id="hero">
+      <h1>Family Handyman Company</h1>
+      <p>We specialize in home repair and maintenance services.</p>
+      <a href="#contact" class="cta-button">Get in touch</a>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a family-owned handyman company that has been serving the community for over 20 years. Our team of experienced professionals is dedicated to providing top-quality home repair and maintenance services to our customers.</p>
+      <a href="#contact" class="cta-button">Schedule a service</a>
+    </section>
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Carpentry</li>
+        <li>Plumbing</li>
+        <li>Electrical Work</li>
+        <li>Painting</li>
+        <li>And more...</li>
+      </ul>
+      <a href="#contact" class="cta-button">Get a quote</a>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <ul>
+        <li>
+          <blockquote>"The team at Family Handyman Company was fantastic! They were able to fix a plumbing issue in my home quickly and efficiently. I highly recommend them."</blockquote>
+          <cite>- Jane D.</cite>
+        </li>
+        <li>
+          <blockquote>"I needed some carpentry work done in my home and the team at Family Handyman Company did a great job. They were professional, friendly, and their work was top-notch."</blockquote>
+          <cite>- John S.</cite>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Family Handyman Company. All rights reserved.</p>
+  </footer>
 </body>
+</html>
