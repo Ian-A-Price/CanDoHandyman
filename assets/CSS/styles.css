@@ -71,7 +71,29 @@ header nav ul li a:hover {
   background-color: var(--primary-color);
 }
 
+#hero a {
+  color: var(--tertiary-color);
+}
+
 #about {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+}
+
+#about a {
+  color: var(--tertiary-color);
+}
+
+#services {
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+}
+
+#services a {
+  color: var(--tertiary-color);
+}
+
+#testimonials {
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
 }
